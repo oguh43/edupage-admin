@@ -9,5 +9,5 @@
         "js": ["script.js"]
       }
     ],
-    "web_accessible_resources": ["i.js"]
+    "web_accessible_resources": ["inject.js"]
   }
