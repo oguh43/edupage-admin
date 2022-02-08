@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Edupage admin",
+    "version": "1.0",
+    "description": "Overloads certain functions",
+    "content_scripts": [
+      {
+        "matches": ["*://*.edupage.org/*"],
+        "js": ["script.js"]
+      }
+    ],
+    "web_accessible_resources": ["i.js"]
+  }
