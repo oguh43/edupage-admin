@@ -1,4 +1,5 @@
 EdubarUtils.isAdmin = ()=>{return true};
+EdubarUtils.isWebpageAdmin = ()=>{return true};
 window.addEventListener("load",()=>{
     ETestUtils.getSuperprideleniaTestu = function(testid, doneFunc) {	
         var superpridelenia = ETestUtils.getCached('superpridelenia_'+testid);
